@@ -10,12 +10,12 @@ spec:
   entryPoints:
     - websecure
   routes:
-    - match: Host(`www.gotify.mmc-home-lab.com`) # change to your domain
+    - match: Host(`www.gotify.mmchomelab.com`) # change to your domain
       kind: Rule
       services:
         - name: gotify
           port: 80
-    - match: Host(`gotify.mmc-home-lab.com`) # change to your domain
+    - match: Host(`gotify.mmchomelab.com`) # change to your domain
       kind: Rule
       services:
         - name: gotify
