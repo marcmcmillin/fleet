@@ -10,7 +10,7 @@ spec:
   entryPoints:
     - websecure
   routes:
-    - match: Host(`www.gotify2.mmchomelab.com`) # change to your domain
+    - match: Host(`gotify2.mmchomelab.com`) # change to your domain
       kind: Rule
       services:
         - name: gotify2
